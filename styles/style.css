@@ -7,11 +7,12 @@
 }
 
 .first {
+    margin: 0 auto;
     margin-top: 64px;
-    margin-left: 220px;
+    margin-bottom: 200px;
     padding: 96px;
     background-color: #E2F7FF;
-    max-width: 1604px;
+    max-width: 1480px;
     width: 100%;
 }
 
@@ -357,5 +358,38 @@
         border: 1px solid #F9DBAF;
         background-color: #FEF6EE;;  
     }
+
+    .Avone_logo {
+        vertical-align: top;
+        margin-left: 32px;
+    }
+
+    .purple {
+        color: #6941C6;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        padding: 8px 16px;
+        border-radius: var(--radius-full, 9999px);
+        border: 1px solid #E9D7FE;
+        background-color: #F9F5FF;
+
+    }
+
+    .orange {
+        color: #3538CD;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        padding: 8px 16px;
+        margin-left: 8px;
+        border-radius: var(--radius-full, 9999px);
+        border: 1px solid #C7D7FE;
+        background-color: #EEF4FF;
+
+    }
+
 
 
